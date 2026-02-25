@@ -17,7 +17,7 @@ def appointment (request):
           name = request.POST['name'],
           email = request.POST['email'],
           phone = request.POST['phone'],
-          datetime = request.POST['time'],
+          datetime = request.POST['date'],
           department = request.POST['department'],
           doctor = request.POST['doctor'],
           message = request.POST['message'],
