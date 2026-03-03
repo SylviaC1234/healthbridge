@@ -82,7 +82,7 @@ import json
 import requests
 from django.shortcuts import render,redirect, get_object_or_404,HttpResponse
 from requests.auth import HTTPBasicAuth
-from credentials import MpesaAccessToken, LipanaMpesaPpassword
+from healthapp.credentials import MpesaAccessToken, LipanaMpesaPpassword
 
 def stk(request):
     if request.method == "POST":
